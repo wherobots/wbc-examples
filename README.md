@@ -2,7 +2,7 @@
 
 This repository contains examples notebooks for Wherobots Cloud Open Data. These notebooks only work on [Wherobots Cloud](https://wherobots.services).
 
-<img src="images/wbc-use-case-insurance.gif" width="400">
+<img src="images/wbc-use-case-insurance.gif" width="800">
 
 ## Wherobots open data
 
