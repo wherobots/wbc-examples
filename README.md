@@ -4,6 +4,8 @@ This repository contains examples notebooks for Wherobots Cloud Open Data. These
 
 <img src="images/wbc-use-case-insurance.gif" width="800">
 
+<img src="images/wbc-use-case-fleet.gif" width="800">
+
 ## Wherobots open data
 
 Wherobots open data catalog below is only accessible by the pro edition users. All data are preproccessed and stored in SedonaDB Havasu table format.
@@ -36,4 +38,5 @@ The structure of this repo is as follows:
 We recommend to use a Sedona cluster with 40+ CPU cores and 100GB+ RAM for running the use case notebook.
 
 ## Data source notebooks
+
 Data source notebooks require you to enter your own Snowflake / PostGIS credentials.
