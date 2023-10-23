@@ -8,7 +8,7 @@ This repository contains examples notebooks for Wherobots Cloud Open Data. These
 
 ## Wherobots open data
 
-Wherobots open data catalog below is only accessible by the pro edition users. All data are preproccessed and stored in SedonaDB Havasu table format.
+Wherobots open data catalog below is only accessible by the pro edition users. All data are preproccessed and stored in SedonaDB Havasu table format. Detailed description about Wherobots open data is available on [Wherobots documentation website](https://docs.wherobots.services/latest/tutorials/opendata/introduction/).
 
 ```
 +----------------+
