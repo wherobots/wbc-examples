@@ -1,6 +1,6 @@
 # Wherobots Open Data Examples
 
-This repository contains examples notebooks for Wherobots Cloud Open Data. These notebooks only work on [Wherobots Cloud](https://wherobots.services).
+This repository contains examples notebooks for Wherobots Cloud Open Data. These notebooks only work on [Wherobots Cloud](https://wherobots.services). The use case notebooks only work for Wherobots `Pro edition` users.
 
 <img src="images/wbc-use-case-insurance.gif" width="800">
 
