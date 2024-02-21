@@ -1,6 +1,9 @@
 # Wherobots Open Data Examples
 
-This repository contains examples notebooks for Wherobots Cloud Open Data. These notebooks only work on [Wherobots Cloud](https://wherobots.services). The use case notebooks only work for Wherobots `Pro edition` users.
+This repository contains examples notebooks for Wherobots Cloud Open
+Data. These notebooks only work on [Wherobots
+Cloud](https://wherobots.services), and use datasets only available to
+Wherobots Professional Edition users.
 
 <img src="images/wbc-use-case-insurance.gif" width="800">
 
@@ -8,9 +11,19 @@ This repository contains examples notebooks for Wherobots Cloud Open Data. These
 
 ## Wherobots open data
 
-Wherobots open data catalog below is only accessible by the pro edition users. All data are preproccessed and stored in SedonaDB Havasu table format. Detailed description about Wherobots open data is available on [Wherobots documentation website](https://docs.wherobots.services/latest/tutorials/opendata/introduction/).
+Wherobots offers two open data catalogs:
 
-```
+* `wherobots_open_data`, accessible to all Wherobots Cloud users;
+* `wherobots_pro_data`, only available to Professional Edition users.
+
+All data in those catalogs is stored in SedonaDB's Havasu table format.
+More information about Wherobots' open data catalogs is available on the
+[Wherobots documentation
+website](https://docs.wherobots.services/latest/tutorials/opendata/introduction/).
+
+```sql
+SHOW SCHEMAS IN wherobots_pro_data
+
 +----------------+
 |       namespace|
 +----------------+
@@ -23,19 +36,20 @@ Wherobots open data catalog below is only accessible by the pro edition users. A
 +----------------+
 ```
 
-To become a pro edition user, please [contact us](https://wherobots.ai).
+To become a Professional Edition user, please [contact us](https://wherobots.com/contact).
 
-## Repo structure
+## Repository structure
 
-The structure of this repo is as follows:
+The structure of this repository is as follows:
 
-* Python: Python notebooks
-	* data-source: example notebooks for loading and saving data from/to Snowflake and AWS RDS PostGIS
-	* use-cases: use case examples for analyzing data using Wherobots Open data
-* Scala: Python notebooks
-	* data-source: example notebooks for loading and saving data from/to Snowflake and AWS RDS PostGIS
+* `python/`: Python notebooks
+	* `data-source/`: example notebooks for loading and saving data from/to Snowflake and AWS RDS PostGIS
+	* `use-cases/`: use case examples for analyzing data using Wherobots Open data
+* `scala/`: Scala notebooks
+	* `data-source/`: example notebooks for loading and saving data from/to Snowflake and AWS RDS PostGIS
 
-We recommend to use a Sedona cluster with 40+ CPU cores and 100GB+ RAM for running the use case notebook.
+We recommend to use at least a "San Francisco"-sized Sedona runtime to
+run those example use-cases (24 total cores, 96GB total memory).
 
 ## Data source notebooks
 
