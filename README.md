@@ -5,9 +5,18 @@ Data. These notebooks only work on [Wherobots
 Cloud](https://wherobots.services), and use datasets only available to
 Wherobots Professional Edition users.
 
+
+*Insurance Risk Analysis Use Case*
+
 <img src="images/wbc-use-case-insurance.gif" width="800">
 
+*Fleet Traffic Analysis Use Case*
+
 <img src="images/wbc-use-case-fleet.gif" width="800">
+
+*Aircraft Flight Analysis Use Case*
+
+<img src="images/wbc-use-case-flights.gif" width="800">
 
 ## Wherobots open data
 
