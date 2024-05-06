@@ -1,10 +1,8 @@
 # Wherobots Open Data Examples
 
 This repository contains examples notebooks for Wherobots Cloud Open
-Data. These notebooks only work on [Wherobots
-Cloud](https://wherobots.services), and use datasets only available to
-Wherobots Professional Edition users.
-
+Data. These notebooks only work on [Wherobots Cloud](https://cloud.wherobots.com),
+and use datasets only available to Wherobots Professional Edition users.
 
 *Insurance Risk Analysis Use Case*
 
@@ -28,7 +26,7 @@ Wherobots offers two open data catalogs:
 All data in those catalogs is stored in SedonaDB's Havasu table format.
 More information about Wherobots' open data catalogs is available on the
 [Wherobots documentation
-website](https://docs.wherobots.services/latest/tutorials/opendata/introduction/).
+website](https://docs.wherobots.com/latest/tutorials/opendata/introduction/).
 
 ```sql
 SHOW SCHEMAS IN wherobots_pro_data
